@@ -13,7 +13,7 @@ For more information on Cloud NAT, see the [Google Cloud NAT docs](https://cloud
 ## Build Environment
 
 These instructions assume you already have Google Cloud access and you're
-working in Google's Cloud Shell environmentt. From here clone the repo and
+working in Google's Cloud Shell environment. From here clone the repo and
 follow the build steps below.
 
 ```bash
