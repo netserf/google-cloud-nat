@@ -17,6 +17,8 @@ working in Google's Cloud Shell environmentt. From here clone the repo and
 follow the build steps below.
 
 ```bash
+PROJECT_ID="YOUR_PROJECT_ID"
+gcloud config set project ${PROJECT_ID}
 git clone https://github.com/netserf/google-cloud-nat.git
 ```
 
