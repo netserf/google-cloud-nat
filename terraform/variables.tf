@@ -1,7 +1,3 @@
-variable "subnet_region" {
-  default = "northamerica-northeast1"
-}
-
 variable "network_name" {
   default = "csp-vpc1"
 }
