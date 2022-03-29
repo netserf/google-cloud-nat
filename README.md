@@ -5,30 +5,19 @@
 
 A terraform module for turning up Google Cloud NAT when your infrastructure is
 trapped inside a private network. This is useful when you need egress access to
-the Internet for package updates, github cloning, etc., but your infrastructure
-is using a private IP with no external IP mapping available.
+the Internet for package updates, git repo cloning, etc., but your
+infrastructure is using a private IP with no external IP mapping available.
 
 For more information on Cloud NAT, see the [Google Cloud NAT docs](https://cloud.google.com/nat/docs/overview/).
 
 ## Build Environment
 
 These instructions assume you already have Google Cloud access and you're
-working in the Cloud Shell. From here clone the repo and follow the build steps
-below.
+working in Google's Cloud Shell environmentt. From here clone the repo and
+follow the build steps below.
 
 ```bash
 git clone https://github.com/netserf/google-cloud-nat.git
-```
-
-## Preparation Steps
-
-Execute the following commands to auto-generate the unique GCP project ID and
-add it to the main.tf file:
-
-TODO
-
-```bash
-./gen_project_id.sh
 ```
 
 ## Infrastructure Build
